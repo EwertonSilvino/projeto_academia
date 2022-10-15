@@ -1,0 +1,110 @@
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 0px 0px 0px 30px;
+    
+}
+
+.logo {
+    width: 200px;
+    margin: 10px;
+
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.nav:hover {
+    color: #CA661D;
+    
+}
+
+.main {
+    height: 800px;
+    background-image: url(img/woman-doing-squats-in-smith-machine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: inherit;
+    color: white;
+    font-size: 50px;
+    width: 400px;
+    padding-left: 20px;
+    
+}
+
+div {
+    background-color:#CA661D ;
+    opacity: 80%;
+    margin-top: 300px;
+    display: flex;
+    width: 450px;
+    height: 200px;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+
+.second-section {
+    background-color: #CA661D;
+     width: 1400px;
+     height: 380px;
+     border-top: 5px solid black;
+     margin-top: 0px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.footer {
+    background-image: url(img/weights-exercise-weightlifter-strong-athletic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-top: 5px solid black;
+}
+
+.icone {
+    width: 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.icones-section {
+    box-shadow: 0px 0px 15px black;
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.capition-icones {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
